@@ -1,4 +1,4 @@
-<mxfile modified="2022-08-25T08:02:50.772Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="c0RNpBanh96iUs3ctLPM" version="20.2.7" type="github">
+<mxfile modified="2022-08-25T08:14:27.094Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vZjCtJBzhSJ0D81uy-Ps" version="20.2.7" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
     <mxGraphModel dx="946" dy="1352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -166,8 +166,11 @@
         <mxCell id="TVyysvoe6LMX9zBbnymy-737" value="Transformation" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="397.5" y="-320" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TVyysvoe6LMX9zBbnymy-744" value="Run the previous step" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVyysvoe6LMX9zBbnymy-741" target="TVyysvoe6LMX9zBbnymy-736">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="TVyysvoe6LMX9zBbnymy-744" value="Run the previous step" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TVyysvoe6LMX9zBbnymy-741">
+          <mxGeometry x="1" y="139" relative="1" as="geometry">
+            <mxPoint x="540" y="-190" as="targetPoint" />
+            <mxPoint x="130" y="89" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TVyysvoe6LMX9zBbnymy-745" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVyysvoe6LMX9zBbnymy-741" target="TVyysvoe6LMX9zBbnymy-746">
           <mxGeometry relative="1" as="geometry">
@@ -191,6 +194,12 @@
         </mxCell>
         <mxCell id="TVyysvoe6LMX9zBbnymy-750" value="Reporting" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="60" y="-110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TVyysvoe6LMX9zBbnymy-757" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVyysvoe6LMX9zBbnymy-755" target="TVyysvoe6LMX9zBbnymy-736">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVyysvoe6LMX9zBbnymy-755" value="Extract a log file" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-220" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
